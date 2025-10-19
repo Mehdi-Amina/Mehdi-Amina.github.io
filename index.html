@@ -1,22 +1,34 @@
 <!DOCTYPE HTML>
 <!--
-    Personal portfolio of Mehdi Aminazadeh
-    Based on "Dimension" theme by HTML5 UP (html5up.net)
+  Portfolio of Mehdi Aminazadeh
+  Based on "Dimension" by HTML5 UP (html5up.net)
 -->
 <html>
   <head>
     <title>Mehdi Aminazadeh — Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="Machine Learning & Computer Science — projects, interests, and contact." />
+    <meta name="description" content="M.Sc. Computer Science — Machine Learning, Data Science, and Engineering Applications." />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <style>
+      #header .content .inner h1 {
+        font-size: 2.1rem;
+        letter-spacing: 0.25rem;
+        line-height: 1.3;
+      }
+      #header .content .inner p {
+        font-size: 0.95rem;
+        letter-spacing: 0.1rem;
+      }
+      #main article p { max-width: 65ch; }
+      #main article h3 { margin: 1.4rem 0 0.5rem; }
+    </style>
   </head>
 
   <body class="is-preload">
-    <!-- Wrapper -->
     <div id="wrapper">
-
       <!-- Header -->
       <header id="header">
         <div class="logo">
@@ -25,7 +37,7 @@
         <div class="content">
           <div class="inner">
             <h1>Hi, I’m Mehdi</h1>
-            <p>Machine Learning & Computer Science — projects, notes, and ways to reach me.</p>
+            <p>M.Sc. Computer Science — Machine Learning, Data Science, and Engineering Applications.</p>
           </div>
         </div>
         <nav>
@@ -45,18 +57,12 @@
         <article id="intro">
           <h2 class="major">Intro</h2>
           <p align="justify">
-            I’m a Computer Science master’s student focused on data-driven modeling and modern ML/DL.
-            I enjoy building practical systems that connect clean data, robust models, and clear visualizations.
-          </p>
-          <p align="justify">
-            Off the clock: progressive rock, metal, ambient, and underground hip-hop.
+            I am pursuing a Master of Science in <b>Computer Science</b> at <b>RPTU Kaiserslautern-Landau (Germany)</b>.  
+            My academic focus includes <b>machine learning, data analysis, and intelligent systems</b>.  
+            I am particularly interested in applying data-driven methods to engineering and physical domains.
           </p>
           <ul class="actions">
-            <li>
-              <a href="assets/Mehdi_Aminazadeh_Resume.pdf" class="button icon solid fa-file" target="_blank">
-                Résumé (PDF)
-              </a>
-            </li>
+            <li><a href="assets/Mehdi_Aminazadeh_Resume.pdf" class="button icon solid fa-file" target="_blank">Résumé (PDF)</a></li>
           </ul>
         </article>
 
@@ -64,43 +70,53 @@
         <article id="work" style="text-align: justify;">
           <h2 class="major">Work</h2>
 
-          <h3>Current</h3>
+          <h3>Current — EHL Film-Thickness Prediction</h3>
           <p>
-            Machine-learning engineer work on elastohydrodynamic lubrication (EHL) film-thickness prediction and
-            mechanical simulation tooling (Fortran / SIMPACK). Focus: data pipelines, modeling, and validation.
+            Developing machine-learning models for <b>elastohydrodynamic lubrication (EHL)</b> film-thickness prediction.  
+            Tasks include preprocessing large experimental datasets, feature engineering, and implementing predictive models
+            using classical and deep-learning approaches. The work also involves building automated scripts for data validation
+            and visualization.
           </p>
 
-          <h3>Before</h3>
+          <h3>Simulation and Tool Development</h3>
+          <p>
+            Supporting mechanical-simulation pipelines using <b>Fortran</b> and <b>SIMPACK</b> to improve workflow efficiency and enable
+            data-driven evaluation of simulation outcomes.
+          </p>
+
+          <h3>Previous Experience</h3>
           <ul>
-            <li>
-              <b>Traffic Analytics (City of Isfahan):</b> ETL pipelines, dashboards, clustering & statistical analysis for
-              mobility decisions.
-            </li>
-            <li>
-              <b>Embedded/Hardware (SEI):</b> Built a microchip CPU-info reader on Raspberry Pi; improved readout speed
-              over legacy tools.
-            </li>
+            <li><b>Traffic Data Analysis – Municipality of Isfahan:</b> Designed and implemented large-scale traffic-flow analysis,
+              clustering, and visualization pipelines for urban mobility planning.</li>
+            <li><b>Embedded Systems Engineering:</b> Developed a microchip information-extraction tool on <b>Raspberry Pi</b>,
+              enhancing diagnostic performance compared to existing software.</li>
           </ul>
 
-          <h3>Tech I use</h3>
+          <h3>Technical Skills</h3>
           <p>
-            Python, C++, SQL · PyTorch/TensorFlow, scikit-learn, XGBoost · MLflow · Docker, Git · Streamlit/Flask · Cloud
-            & MLOps basics.
+            Python, C++, SQL · PyTorch, scikit-learn, TensorFlow · Data Preprocessing, Visualization · Git, Docker ·
+            Streamlit, Flask · Fundamental MLOps tools.
           </p>
-
-          <p>If you have questions, just ping me via the Contact tab.</p>
         </article>
 
         <!-- About -->
         <article id="about" style="text-align: justify;">
           <h2 class="major">About</h2>
           <p>
-            I’m studying Computer Science (M.Sc.) with a focus on Data Science / Intelligent Systems. I like bringing ML
-            from notebooks to reliable, inspectable tools. Interests include deep learning (CNN/RNN/Seq2Seq), graph
-            methods, anomaly detection, and time-series forecasting.
+            My research interests lie in <b>machine learning for engineering and physical systems</b>,  
+            including modeling, prediction, and optimization.  
+            I aim to integrate theoretical understanding with practical implementation to ensure reproducible and interpretable results.
           </p>
-          <p>Languages: English (advanced), German (intermediate).</p>
-          <p>Hobbies: swimming, basketball, reading, and—always—music.</p>
+          <p>
+            Areas of interest: supervised and unsupervised learning, anomaly detection, dimensionality reduction,  
+            and model evaluation techniques.
+          </p>
+          <p>
+            Languages: English (advanced), German (intermediate).
+          </p>
+          <p>
+            Favorite music genres: progressive rock, metal, ambient, and underground hip-hop.
+          </p>
         </article>
 
         <!-- Contact -->
@@ -127,28 +143,18 @@
             </ul>
           </form>
           <ul class="icons">
-            <li>
-              <a href="https://github.com/MehdiAminazadeh" class="icon brands fa-github"><span class="label">GitHub</span></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/mehdi-aminazadeh-51297423b/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/playlist?list=PLHverT__-gaIrYOVCfhRb4ysfR2EgWAis" class="icon brands fa-youtube"><span class="label">YouTube</span></a>
-            </li>
+            <li><a href="https://github.com/MehdiAminazadeh" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/mehdi-aminazadeh-51297423b/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLHverT__-gaIrYOVCfhRb4ysfR2EgWAis" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
           </ul>
         </article>
-
       </div>
 
-      <!-- Footer -->
       <footer id="footer"></footer>
     </div>
 
-    <!-- BG -->
     <div id="bg"></div>
 
-    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
