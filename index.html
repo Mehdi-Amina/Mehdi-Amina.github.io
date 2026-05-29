@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehdi Aminazadeh | Data, AI & Optimization Portfolio</title>
+  <meta name="description" content="Portfolio of Mehdi Aminazadeh, MSc Computer Science student at RPTU working on data engineering, machine learning, quantum optimization, computer vision, and automated research-data pipelines." />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            surface: "#0c1324",
+            "surface-container-lowest": "#070d1f",
+            "surface-container-low": "#151b2d",
+            "surface-container": "#191f31",
+            "surface-container-high": "#23293c",
+            "surface-container-highest": "#2e3447",
+            "on-surface": "#dce1fb",
+            "on-surface-variant": "#c8c4d9",
+            outline: "#918ea2",
+            "outline-variant": "#474556",
+            primary: "#c5c0ff",
+            "primary-container": "#4f39f0",
+            "on-primary": "#2400a2",
+            "on-primary-container": "#d6d1ff",
+            secondary: "#e6feff",
+            "secondary-container": "#00f4fe",
+            "on-secondary-container": "#006c71",
+            background: "#0c1324",
+            "on-background": "#dce1fb"
+          },
+          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", "3xl": "1.5rem", full: "9999px" },
+          fontFamily: {
+            headline: ["Hanken Grotesk", "sans-serif"],
+            body: ["Geist", "sans-serif"]
+          },
+          boxShadow: {
+            aura: "0 0 60px rgba(79, 57, 240, 0.20)",
+            cyan: "0 0 40px rgba(0, 244, 254, 0.12)"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body { background: #0c1324; color: #dce1fb; -webkit-font-smoothing: antialiased; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    .aura-bg {
+      background:
+        radial-gradient(circle at 12% 12%, rgba(79,57,240,.34), transparent 30%),
+        radial-gradient(circle at 86% 18%, rgba(0,244,254,.14), transparent 28%),
+        radial-gradient(circle at 70% 90%, rgba(197,192,255,.08), transparent 34%),
+        #0c1324;
+    }
+    .grid-glow {
+      background-image: linear-gradient(rgba(220,225,251,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(220,225,251,.035) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+  </style>
+</head>
+<body class="font-body bg-background text-on-background">
+  <header class="sticky top-0 z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/20">
+    <nav class="max-w-[1200px] mx-auto px-6 md:px-10 flex justify-between items-center h-20">
+      <a href="#top" class="font-headline text-xl font-bold tracking-tight text-primary">MEHDI AMINAZADEH</a>
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a class="text-on-surface-variant hover:text-primary transition-colors" href="#work">Work</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors" href="#skills">Skills</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors" href="#experience">Experience</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+        <a class="bg-primary text-on-primary px-5 py-2.5 rounded-full font-medium hover:opacity-90 transition" href="CV.pdf">Resume</a>
+      </div>
+      <button class="md:hidden p-2 text-on-surface" aria-label="Open menu"><span class="material-symbols-outlined">menu</span></button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="aura-bg grid-glow">
+      <div class="max-w-[1200px] mx-auto px-6 md:px-10 pt-24 pb-28 md:pt-36 md:pb-40">
+        <span class="inline-flex items-center gap-2 bg-primary-container/80 text-on-primary-container px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-7">
+          Data Engineering · AI · Quantum Optimization
+        </span>
+        <h1 class="font-headline text-4xl md:text-6xl font-bold leading-tight tracking-tight max-w-5xl mb-8">
+          Building intelligent data systems for research, automation, and real-world decision workflows.
+        </h1>
+        <p class="text-lg md:text-xl text-on-surface-variant max-w-3xl leading-relaxed mb-10">
+          I am a Master’s student in Computer Science at RPTU and a data engineer working across machine learning, computer vision, optimization, NLP-based matching, and automated data-collection pipelines.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a class="bg-primary text-on-primary px-8 py-4 rounded-full font-medium hover:-translate-y-1 hover:shadow-aura transition" href="#work">View projects</a>
+          <a class="border border-outline text-on-surface px-8 py-4 rounded-full font-medium hover:bg-surface-container hover:-translate-y-1 transition" href="mailto:mehdi-amina@outlook.de">Contact me</a>
+          <a class="border border-outline-variant text-on-surface-variant px-8 py-4 rounded-full font-medium hover:text-primary hover:border-primary transition" href="https://github.com/mehdiaminazadeh" target="_blank" rel="noopener">GitHub</a>
+          <a class="border border-outline-variant text-on-surface-variant px-8 py-4 rounded-full font-medium hover:text-primary hover:border-primary transition" href="https://www.linkedin.com/in/mehdi-aminazadeh-51297423b/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="bg-surface-container-lowest py-24 md:py-32">
+      <div class="max-w-[1200px] mx-auto px-6 md:px-10">
+        <div class="flex flex-col md:flex-row justify-between gap-6 md:items-end mb-14">
+          <div>
+            <h2 class="font-headline text-3xl md:text-4xl font-semibold mb-4">Featured Work</h2>
+            <p class="text-on-surface-variant max-w-2xl">Selected projects around optimization, research automation, data pipelines, and applied AI.</p>
+          </div>
+          <a class="text-primary font-medium hover:underline" href="https://github.com/mehdiaminazadeh" target="_blank" rel="noopener">All GitHub projects →</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+          <article class="md:col-span-7 bg-surface-container border border-outline-variant/30 rounded-xl p-8 hover:shadow-aura transition">
+            <div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center mb-8"><span class="material-symbols-outlined text-on-primary-container">hub</span></div>
+            <span class="text-xs uppercase tracking-widest text-on-surface-variant">Quantum optimization · RPTU</span>
+            <h3 class="font-headline text-3xl font-semibold mt-3 mb-5">Factory layout optimization with D-Wave hybrid solvers</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6">Developed QUBO/BQM workflows for factory layout planning using D-Wave Ocean SDK, hybrid quantum-classical solvers, dimod, dwave-system, and Optuna-based tuning.</p>
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div class="bg-surface-container-low rounded-lg p-4"><div class="text-2xl font-bold text-secondary-container">63% → 81%</div><div class="text-xs text-on-surface-variant mt-1">Feasibility-rate improvement</div></div>
+              <div class="bg-surface-container-low rounded-lg p-4"><div class="text-2xl font-bold text-primary">QUBO/BQM</div><div class="text-xs text-on-surface-variant mt-1">Optimization formulation</div></div>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs text-on-surface-variant"><span class="px-3 py-1 rounded-full bg-surface-container-high">D-Wave Ocean</span><span class="px-3 py-1 rounded-full bg-surface-container-high">dimod</span><span class="px-3 py-1 rounded-full bg-surface-container-high">Optuna</span><span class="px-3 py-1 rounded-full bg-surface-container-high">Hybrid solvers</span></div>
+          </article>
+
+          <article class="md:col-span-5 bg-surface-container border border-outline-variant/30 rounded-xl p-8 hover:shadow-cyan transition">
+            <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center mb-8"><span class="material-symbols-outlined text-on-secondary-container">travel_explore</span></div>
+            <span class="text-xs uppercase tracking-widest text-on-surface-variant">APIs · Scraping · NLP</span>
+            <h3 class="font-headline text-2xl font-semibold mt-3 mb-5">Economics article and working-paper pipeline</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6">Built an automated pipeline for journal articles, working papers, metadata extraction, source discovery, and article–paper matching using APIs, DOM parsing, Selenium, and semantic similarity methods.</p>
+            <div class="flex flex-wrap gap-2 text-xs text-on-surface-variant"><span class="px-3 py-1 rounded-full bg-surface-container-high">Crossref</span><span class="px-3 py-1 rounded-full bg-surface-container-high">Selenium</span><span class="px-3 py-1 rounded-full bg-surface-container-high">SBERT</span><span class="px-3 py-1 rounded-full bg-surface-container-high">TF-IDF</span></div>
+          </article>
+
+          <article class="md:col-span-4 bg-surface-container border border-outline-variant/30 rounded-xl p-8 hover:shadow-aura transition">
+            <div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center mb-8"><span class="material-symbols-outlined text-on-primary-container">visibility</span></div>
+            <span class="text-xs uppercase tracking-widest text-on-surface-variant">Computer vision · Fraunhofer IOSB</span>
+            <h3 class="font-headline text-2xl font-semibold mt-3 mb-5">Thermal-image processing for drone detection</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6">Implemented image segmentation and enhancement workflows for infrared and thermal UAV imagery using OpenCV, Pillow, scikit-image, and parallel processing.</p>
+            <div class="text-2xl font-bold text-secondary-container mb-1">+20%</div><div class="text-sm text-on-surface-variant">Throughput improvement over sequential processing</div>
+          </article>
+
+          <article class="md:col-span-4 bg-surface-container border border-outline-variant/30 rounded-xl p-8 hover:shadow-cyan transition">
+            <div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center mb-8"><span class="material-symbols-outlined text-on-secondary-container">oil_barrel</span></div>
+            <span class="text-xs uppercase tracking-widest text-on-surface-variant">Machine learning · tabular data</span>
+            <h3 class="font-headline text-2xl font-semibold mt-3 mb-5">EHL film prediction</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6">Preprocessed FVA3 oil-lubrication data and evaluated ML/DL models including GNNs, TabNet, and FT-Transformer for lubricant-formula performance prediction.</p>
+            <a class="text-primary font-medium hover:underline" href="https://github.com/mehdiaminazadeh/EHL-film-prediction" target="_blank" rel="noopener">Open repository →</a>
+          </article>
+
+          <article class="md:col-span-4 bg-surface-container border border-outline-variant/30 rounded-xl p-8 hover:shadow-aura transition">
+            <div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center mb-8"><span class="material-symbols-outlined text-on-primary-container">candlestick_chart</span></div>
+            <span class="text-xs uppercase tracking-widest text-on-surface-variant">Financial data · APIs</span>
+            <h3 class="font-headline text-2xl font-semibold mt-3 mb-5">TradingView market dataset</h3>
+            <p class="text-on-surface-variant leading-relaxed mb-6">A global market-data extraction project focused on TradingView screener data, financial metrics, fundamentals, performance, dividends, and stock-screening workflows.</p>
+            <a class="text-primary font-medium hover:underline" href="https://github.com/mehdiaminazadeh/trading-view" target="_blank" rel="noopener">Open repository →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="max-w-[1200px] mx-auto px-6 md:px-10 py-24 md:py-32">
+      <div class="max-w-3xl mb-16">
+        <h2 class="font-headline text-3xl md:text-4xl font-semibold mb-5">Technical Focus</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">I focus on production-minded research code: data collection, preprocessing, model evaluation, optimization, and reproducible Python workflows.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-7 rounded-xl bg-surface-container-low border border-outline-variant/20"><span class="material-symbols-outlined text-primary mb-5">database</span><h3 class="font-headline text-2xl font-semibold mb-3">Data Engineering</h3><p class="text-on-surface-variant leading-relaxed">Python, SQL, PostgreSQL, ETL pipelines, APIs, scraping, document retrieval, metadata filtering, and automation.</p></div>
+        <div class="p-7 rounded-xl bg-surface-container-low border border-outline-variant/20"><span class="material-symbols-outlined text-primary mb-5">psychology</span><h3 class="font-headline text-2xl font-semibold mb-3">Machine Learning</h3><p class="text-on-surface-variant leading-relaxed">Scikit-learn, PyTorch, TensorFlow/Keras, XGBoost, deep learning, pattern recognition, NLP, and model evaluation.</p></div>
+        <div class="p-7 rounded-xl bg-surface-container-low border border-outline-variant/20"><span class="material-symbols-outlined text-primary mb-5">calculate</span><h3 class="font-headline text-2xl font-semibold mb-3">Optimization</h3><p class="text-on-surface-variant leading-relaxed">QUBO/BQM modeling, hybrid quantum-classical workflows, penalty tuning, feature selection, and Optuna-based experimentation.</p></div>
+      </div>
+    </section>
+
+    <section id="experience" class="bg-surface-container-lowest py-24 md:py-32">
+      <div class="max-w-[1200px] mx-auto px-6 md:px-10">
+        <h2 class="font-headline text-3xl md:text-4xl font-semibold mb-14">Experience Timeline</h2>
+        <div class="space-y-5">
+          <div class="bg-surface-container border border-outline-variant/30 rounded-xl p-7 grid md:grid-cols-[220px_1fr] gap-4"><div class="text-primary font-medium">Jan 2026 – Present</div><div><h3 class="font-headline text-2xl font-semibold">Fraunhofer IOSB · Working Student, Data Engineer</h3><p class="text-on-surface-variant mt-2">Computer vision and image-processing workflows for drone-detection applications.</p></div></div>
+          <div class="bg-surface-container border border-outline-variant/30 rounded-xl p-7 grid md:grid-cols-[220px_1fr] gap-4"><div class="text-primary font-medium">Mar 2026 – Present</div><div><h3 class="font-headline text-2xl font-semibold">RPTU Mechanical & Process Engineering · Research Assistant</h3><p class="text-on-surface-variant mt-2">Quantum optimization for factory layout planning with D-Wave, QUBO/BQM formulations, and hybrid solvers.</p></div></div>
+          <div class="bg-surface-container border border-outline-variant/30 rounded-xl p-7 grid md:grid-cols-[220px_1fr] gap-4"><div class="text-primary font-medium">Jan 2026 – Mar 2026</div><div><h3 class="font-headline text-2xl font-semibold">RPTU Economics · Associate Programmer</h3><p class="text-on-surface-variant mt-2">Research-data collection, article/working-paper matching, NLP similarity, and automated scraping workflows.</p></div></div>
+          <div class="bg-surface-container border border-outline-variant/30 rounded-xl p-7 grid md:grid-cols-[220px_1fr] gap-4"><div class="text-primary font-medium">Sep 2025 – Jan 2026</div><div><h3 class="font-headline text-2xl font-semibold">RPTU MEGT · Associate Programmer</h3><p class="text-on-surface-variant mt-2">Machine-learning workflows for structured experimental lubrication data.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="max-w-[1200px] mx-auto px-6 md:px-10 py-24 md:py-32">
+      <div class="bg-primary-container text-on-primary-container rounded-3xl p-10 md:p-16 text-center shadow-aura">
+        <h2 class="font-headline text-4xl md:text-5xl font-bold mb-6">Let’s build useful AI and data systems.</h2>
+        <p class="max-w-2xl mx-auto text-on-primary-container/85 text-lg mb-10">Open to data engineering, machine learning, research programming, optimization, and automation-focused roles or collaborations.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a class="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-full font-medium hover:scale-105 transition" href="mailto:mehdi-amina@outlook.de">Email me</a>
+          <a class="bg-surface-container-low text-on-surface px-8 py-4 rounded-full font-medium hover:scale-105 transition" href="https://github.com/mehdiaminazadeh" target="_blank" rel="noopener">GitHub</a>
+          <a class="bg-surface-container-low text-on-surface px-8 py-4 rounded-full font-medium hover:scale-105 transition" href="https://www.linkedin.com/in/mehdi-aminazadeh-51297423b/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="w-full py-14 bg-surface-container-lowest border-t border-outline-variant/10">
+    <div class="max-w-[1200px] mx-auto px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
+      <div>
+        <div class="font-headline font-bold text-primary mb-2">MEHDI AMINAZADEH</div>
+        <p class="text-on-surface-variant">© 2026 Mehdi Aminazadeh. Data, AI & optimization portfolio.</p>
+      </div>
+      <div class="flex items-center gap-8">
+        <a class="text-on-surface-variant hover:text-primary transition" href="mailto:mehdi-amina@outlook.de">Email</a>
+        <a class="text-on-surface-variant hover:text-primary transition" href="https://github.com/mehdiaminazadeh" target="_blank" rel="noopener">GitHub</a>
+        <a class="text-on-surface-variant hover:text-primary transition" href="https://www.linkedin.com/in/mehdi-aminazadeh-51297423b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 20) header.classList.add('shadow-lg');
+      else header.classList.remove('shadow-lg');
+    });
+  </script>
+</body>
+</html>
