@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/MehdiAminazadeh/IOT",
+  "commit": "b2d5eee14b975fe734c4039ce9e5f7d42b4dcffe",
+  "rows": 6000,
+  "generator_seed": 42,
+  "detector_seed": 0,
+  "contamination": 0.02,
+  "n_estimators": 300,
+  "features": [
+    "attempts",
+    "fail_ratio",
+    "uniq_ips",
+    "uniq_devices",
+    "uniq_countries",
+    "hour_sin",
+    "hour_cos",
+    "secs_since_last_success",
+    "rare_country_for_user",
+    "rare_device_for_user"
+  ],
+  "flags": {
+    "ml_flag": 120,
+    "rule_flag": 0,
+    "final_flag": 120
+  },
+  "score_threshold": 0.6329204773299872,
+  "score_quantiles": {
+    "0": 0.4269607832999086,
+    "0.25": 0.43998113027603003,
+    "0.5": 0.45485969997057996,
+    "0.75": 0.5276010000465644,
+    "0.95": 0.5981887596551801,
+    "0.98": 0.6329204773299872,
+    "1": 0.7736237285983399
+  },
+  "pandas_version": "3.0.1",
+  "sklearn_version": "1.9.1",
+  "numpy_version": "2.5.3",
+  "compatibility_change": "Series.view(\"int64\") replaced by Series.astype(\"datetime64[ns]\").astype(\"int64\") to preserve nanosecond timestamp semantics on pandas 3",
+  "interpretation": "Deterministic synthetic in-sample demonstration. Flag fraction is set by percentile threshold, not measured attack-detection accuracy."
+}

@@ -1,0 +1,153 @@
+{
+  "repository": "https://github.com/MehdiAminazadeh/energy-load-forecast",
+  "commit": "1a2e17eca3eb0366b22c31fb9b95ead1d0b91c13",
+  "data_sha256": "e4a093aedd6e116917312e4bad80f5e3df7ccc3b4d13f0e5af65f9afabfb5e81",
+  "data": {
+    "synthetic": true,
+    "n_observations": 60000,
+    "interval_minutes": 15,
+    "start": "2024-01-01 00:00:00",
+    "end": "2025-09-16 23:45:00",
+    "load_min_kw": 35.51,
+    "load_max_kw": 149.2
+  },
+  "protocol": "TimeSeriesSplit(n_splits=3), expanding training window, no shuffle, no gap; exact upstream build_model()",
+  "model": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "features": [
+    "outdoor_temp_c",
+    "occupancy",
+    "hour",
+    "day_of_week"
+  ],
+  "baseline": "Rolling 15-minute persistence: prediction at t is observed load at t-1. Earlier test observations are available as time advances; no future target values are used.",
+  "cv_mean_mae_kw": 1.3457267445889913,
+  "upstream_rounded_cv_mae_kw": 1.346,
+  "held_out_n": 45000,
+  "overall_random_forest": {
+    "mae_kw": 1.3457267445889913,
+    "rmse_kw": 1.602503241578115,
+    "r2": 0.9968436120755801,
+    "median_absolute_error_kw": 1.257644285714285,
+    "p90_absolute_error_kw": 2.540818908730143,
+    "bias_kw": -0.006313139647920323
+  },
+  "overall_persistence": {
+    "mae_kw": 3.5425026666666666,
+    "rmse_kw": 5.102260494678369,
+    "r2": 0.968002371259215,
+    "median_absolute_error_kw": 2.7700000000000102,
+    "p90_absolute_error_kw": 6.839999999999996,
+    "bias_kw": -4.355555555555731e-05
+  },
+  "mae_reduction_vs_persistence_percent": 62.01197652575774,
+  "folds": [
+    {
+      "fold": 1,
+      "train_n": 15000,
+      "test_n": 15000,
+      "train_start": "2024-01-01 00:00:00",
+      "train_end": "2024-06-05 05:45:00",
+      "test_start": "2024-06-05 06:00:00",
+      "test_end": "2024-11-08 11:45:00",
+      "random_forest": {
+        "mae_kw": 1.3548255264242608,
+        "rmse_kw": 1.6219092651123213,
+        "r2": 0.9965124810098909,
+        "median_absolute_error_kw": 1.257649880952357,
+        "p90_absolute_error_kw": 2.5747525992063327,
+        "bias_kw": 0.016142976790117478
+      },
+      "persistence": {
+        "mae_kw": 3.5224306666666667,
+        "rmse_kw": 5.105960297534637,
+        "r2": 0.9654364502752688,
+        "median_absolute_error_kw": 2.740000000000002,
+        "p90_absolute_error_kw": 6.790000000000006,
+        "bias_kw": -0.006347999999999998
+      }
+    },
+    {
+      "fold": 2,
+      "train_n": 30000,
+      "test_n": 15000,
+      "train_start": "2024-01-01 00:00:00",
+      "train_end": "2024-11-08 11:45:00",
+      "test_start": "2024-11-08 12:00:00",
+      "test_end": "2025-04-13 17:45:00",
+      "random_forest": {
+        "mae_kw": 1.3460934392285866,
+        "rmse_kw": 1.6026759969756015,
+        "r2": 0.9970102168856814,
+        "median_absolute_error_kw": 1.2613138690476262,
+        "p90_absolute_error_kw": 2.5409650476190913,
+        "bias_kw": -0.05108022789747346
+      },
+      "persistence": {
+        "mae_kw": 3.6449666666666665,
+        "rmse_kw": 5.17200038798658,
+        "r2": 0.9688638208732206,
+        "median_absolute_error_kw": 2.9099999999999966,
+        "p90_absolute_error_kw": 7.020000000000003,
+        "bias_kw": 0.006133333333333327
+      }
+    },
+    {
+      "fold": 3,
+      "train_n": 45000,
+      "test_n": 15000,
+      "train_start": "2024-01-01 00:00:00",
+      "train_end": "2025-04-13 17:45:00",
+      "test_start": "2025-04-13 18:00:00",
+      "test_end": "2025-09-16 23:45:00",
+      "random_forest": {
+        "mae_kw": 1.3362612681141266,
+        "rmse_kw": 1.5826843975556757,
+        "r2": 0.9960668512981121,
+        "median_absolute_error_kw": 1.2564319642857313,
+        "p90_absolute_error_kw": 2.5085246428571217,
+        "bias_kw": 0.015997832163595016
+      },
+      "persistence": {
+        "mae_kw": 3.4601106666666666,
+        "rmse_kw": 5.0277995080684486,
+        "r2": 0.9603075755804523,
+        "median_absolute_error_kw": 2.6800000000000033,
+        "p90_absolute_error_kw": 6.690000000000005,
+        "bias_kw": 8.39999999999975e-05
+      }
+    }
+  ],
+  "caveats": [
+    "All observations are generated; these results do not establish accuracy on a real building.",
+    "Temperature and occupancy are supplied for the target timestamp. This is conditional estimation on held-out rows; future-input forecast quality and a forecast horizon are not validated.",
+    "The persistence comparator assumes new load observations every 15 minutes. The random forest is refit once per fold and uses supplied target-time covariates.",
+    "No uncertainty intervals or statistical significance claims are produced. Cross-validation errors are temporally dependent."
+  ],
+  "runtime_seconds": 15.88,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.1"
+  }
+}

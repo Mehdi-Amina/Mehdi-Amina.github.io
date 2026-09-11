@@ -1,0 +1,65 @@
+{
+  "repository": "https://github.com/MehdiAminazadeh/streaming-anomaly-lab",
+  "commit": "9fbf008cf7e3e236144f304b5f906b3445e5be3a",
+  "method": "Exact source median/MAD formula reproduced without importing package",
+  "config": {
+    "baseline_window": 5,
+    "alert_threshold": 3.0
+  },
+  "events": [
+    {
+      "event_id": "e-001",
+      "account_id": "a-100",
+      "amount": 41.5,
+      "event_time": "2026-07-12T09:00:00",
+      "prior_baseline": [],
+      "baseline_median": null,
+      "baseline_mad": null,
+      "score": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "event_id": "e-002",
+      "account_id": "a-100",
+      "amount": 44.0,
+      "event_time": "2026-07-12T09:01:00",
+      "prior_baseline": [
+        41.5
+      ],
+      "baseline_median": 41.5,
+      "baseline_mad": 0.0,
+      "score": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "event_id": "e-003",
+      "account_id": "a-100",
+      "amount": 39.5,
+      "event_time": "2026-07-12T09:02:00",
+      "prior_baseline": [
+        41.5,
+        44.0
+      ],
+      "baseline_median": 42.75,
+      "baseline_mad": 1.25,
+      "score": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "event_id": "e-004",
+      "account_id": "a-100",
+      "amount": 275.0,
+      "event_time": "2026-07-12T09:03:00",
+      "prior_baseline": [
+        41.5,
+        44.0,
+        39.5
+      ],
+      "baseline_median": 41.5,
+      "baseline_mad": 2.0,
+      "score": 78.7479,
+      "is_anomaly": true
+    }
+  ],
+  "interpretation": "Four committed example events, not a benchmark; first three are warm-up records."
+}

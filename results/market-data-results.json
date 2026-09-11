@@ -1,0 +1,149 @@
+{
+  "repository": "https://github.com/MehdiAminazadeh/trading-view",
+  "commit": "fb25b23bb65311552df462add566efbdf461cd3d",
+  "files": [
+    {
+      "file": "balance_sheet.csv",
+      "rows": 11821,
+      "columns": 12,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "total_assets_fq",
+        "cash_n_short_term_invest_fq",
+        "total_liabilities_fq",
+        "total_debt_fq",
+        "net_debt_fq",
+        "total_equity_fq",
+        "current_ratio_fq",
+        "quick_ratio_fq",
+        "debt_to_equity_fq"
+      ],
+      "unique_tickers": 11727,
+      "populated_cells": 121553,
+      "total_cells": 141852,
+      "sha256": "d06f88d7a02364011c2648abb6b91bf71e2a81d12e0d73e4a8ac3235685ca5bb"
+    },
+    {
+      "file": "cashflow.csv",
+      "rows": 11821,
+      "columns": 4,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "free_cash_flow_ttm"
+      ],
+      "unique_tickers": 11663,
+      "populated_cells": 44033,
+      "total_cells": 47284,
+      "sha256": "fd1ae9c6d8a72a7687cc31b672df6c5cac28cfc239566d9d0171f09d69fa9557"
+    },
+    {
+      "file": "dividends.csv",
+      "rows": 11823,
+      "columns": 5,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "dividends_yield",
+        "dividend_payout_ratio_ttm"
+      ],
+      "unique_tickers": 11677,
+      "populated_cells": 48946,
+      "total_cells": 59115,
+      "sha256": "bc910703f9754cdd2185eaff47a1a2466e33cab5a9d5bd5db2500004f88cd8bf"
+    },
+    {
+      "file": "income_statement.csv",
+      "rows": 11821,
+      "columns": 7,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "total_revenue_ttm",
+        "gross_profit_ttm",
+        "net_income_ttm",
+        "ebitda_ttm"
+      ],
+      "unique_tickers": 11674,
+      "populated_cells": 71725,
+      "total_cells": 82747,
+      "sha256": "1068cce2446a02889742af602de36429d7225a8297e0d570ec70eb6eaffc175e"
+    },
+    {
+      "file": "profitability.csv",
+      "rows": 11823,
+      "columns": 7,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "gross_margin_ttm",
+        "operating_margin_ttm",
+        "net_margin_ttm",
+        "ebitda_margin_ttm"
+      ],
+      "unique_tickers": 11677,
+      "populated_cells": 63192,
+      "total_cells": 82761,
+      "sha256": "13be68ad832f37f6f789e8125fe5c7c8a2ccbd7c5135d263df718299a50295fb"
+    },
+    {
+      "file": "tradingview_all_stocks.csv",
+      "rows": 11806,
+      "columns": 10,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "change",
+        "change_abs",
+        "volume",
+        "market_cap_basic",
+        "price_earnings_ttm",
+        "sector",
+        "industry"
+      ],
+      "unique_tickers": 11675,
+      "populated_cells": 110448,
+      "total_cells": 118060,
+      "sha256": "d9ebed923ec67479f35298629892ddd5d5cf0ae6794e7b3104cd02e42581e42a"
+    },
+    {
+      "file": "tradingview_performance.csv",
+      "rows": 11814,
+      "columns": 17,
+      "fields": [
+        "ticker",
+        "name",
+        "close",
+        "change",
+        "change_abs",
+        "Perf.W",
+        "Perf.1M",
+        "Perf.3M",
+        "Perf.6M",
+        "Perf.YTD",
+        "Perf.Y",
+        "Perf.5Y",
+        "Perf.All",
+        "volume",
+        "market_cap_basic",
+        "sector",
+        "industry"
+      ],
+      "unique_tickers": 11661,
+      "populated_cells": 199657,
+      "total_cells": 200838,
+      "sha256": "697b9d12e7ea94433e45abe8afe46315995d0625372e30bd287feb7b48866cb1"
+    }
+  ],
+  "unique_tickers_union": 11823,
+  "unique_fields_union": 38,
+  "total_rows_across_files": 82729,
+  "interpretation": "Coverage of seven committed snapshots; rows across files are not unique securities and no snapshot date is asserted."
+}

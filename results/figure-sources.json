@@ -1,0 +1,93 @@
+{
+  "sensor-results": {
+    "files": [
+      "sensor-results.png",
+      "sensor-results.svg"
+    ],
+    "sources": [
+      "https://github.com/MehdiAminazadeh/distributed-sensor-pipeline/blob/main/results/model_metrics.json",
+      "https://github.com/MehdiAminazadeh/distributed-sensor-pipeline/blob/main/results/data_quality_report.json",
+      "https://github.com/MehdiAminazadeh/distributed-sensor-pipeline/blob/main/src/sensor_pipeline/training.py"
+    ],
+    "evidence": "Committed synthetic holdout metrics. README says cross-validation, but training.py implements a stratified 25% holdout. No real-world claim or invented confusion counts.",
+    "size_px": [
+      1400,
+      800
+    ]
+  },
+  "ehl-workflow": {
+    "files": [
+      "ehl-workflow.png",
+      "ehl-workflow.svg"
+    ],
+    "sources": [
+      "https://github.com/MehdiAminazadeh/EHL-film-prediction",
+      "https://github.com/MehdiAminazadeh/EHL-film-prediction/blob/main/pipelines/train_core.py"
+    ],
+    "evidence": "Implemented workflow grounded in README and repository structure; no numerical model performance asserted.",
+    "size_px": [
+      1400,
+      800
+    ]
+  },
+  "factory-layout-results": {
+    "files": [
+      "factory-layout-results.png",
+      "factory-layout-results.svg"
+    ],
+    "sources": [
+      "https://mehdi-amina.github.io/"
+    ],
+    "evidence": "Method overview and portfolio-reported feasibility improvement from 63% to 81%. No source runs or raw benchmark data accessed.",
+    "size_px": [
+      1400,
+      800
+    ]
+  },
+  "thermal-workflow": {
+    "files": [
+      "thermal-workflow.png",
+      "thermal-workflow.svg"
+    ],
+    "sources": [
+      "https://mehdi-amina.github.io/"
+    ],
+    "evidence": "Portfolio-reported throughput improvement of 20% over sequential processing; no dataset, runtime, image samples or detector accuracy claimed. The owner confirms this project belongs to Fraunhofer IOSB; the current IESE role began in September 2026.",
+    "size_px": [
+      1400,
+      800
+    ]
+  },
+  "research-matching-workflow": {
+    "files": [
+      "research-matching-workflow.png",
+      "research-matching-workflow.svg"
+    ],
+    "sources": [
+      "https://mehdi-amina.github.io/"
+    ],
+    "evidence": "Job-method summary grounded in portfolio description. SBERT and TF-IDF claims belong to that description, not to the inspected journal-scraper matcher.py.",
+    "size_px": [
+      1400,
+      800
+    ]
+  },
+  "journal-workflow": {
+    "files": [
+      "journal-workflow.png",
+      "journal-workflow.svg"
+    ],
+    "sources": [
+      "https://github.com/MehdiAminazadeh/journal-scraper/blob/main/main.py",
+      "https://github.com/MehdiAminazadeh/journal-scraper/blob/main/input_loader.py",
+      "https://github.com/MehdiAminazadeh/journal-scraper/blob/main/matcher.py",
+      "https://github.com/MehdiAminazadeh/journal-scraper/blob/main/source_runner.py",
+      "https://github.com/MehdiAminazadeh/journal-scraper/blob/main/state_manager.py"
+    ],
+    "evidence": "Code-grounded collection workflow. matcher.py uses difflib.SequenceMatcher and normalized author checks; no SBERT implementation claimed.",
+    "size_px": [
+      1400,
+      800
+    ]
+  }
+}

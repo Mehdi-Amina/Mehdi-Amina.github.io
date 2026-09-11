@@ -1,0 +1,210 @@
+{
+  "repository": "https://github.com/MehdiAminazadeh/traffic",
+  "commit": "d4e5af43c63cc00bbc3967e1f48f2bf5084e070b",
+  "created_from": "Committed analysis outputs; source archive was not ingested or re-evaluated.",
+  "files": {
+    "traffic-results": {
+      "png": "traffic-results.png",
+      "svg": "traffic-results.svg",
+      "dimensions_px": [
+        1920,
+        1320
+      ]
+    },
+    "traffic-intersections": {
+      "png": "traffic-intersections.png",
+      "svg": "traffic-intersections.svg",
+      "dimensions_px": [
+        1920,
+        1320
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "outputs/tables/analysis_summary.json",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/analysis_summary.json",
+      "sha256": "22f78e7b9101ff99c82c1a5a756e7cae50b91b1f1d7e17227c92b8dbf16a8267"
+    },
+    {
+      "path": "outputs/tables/map_summary.json",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/map_summary.json",
+      "sha256": "305f7741936da97247d22d9f7f12057dadb8346bb6845ff84a1cb1bd4149ce5f"
+    },
+    {
+      "path": "outputs/tables/paired_month_changes.csv",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/paired_month_changes.csv",
+      "sha256": "d6ccdbccdbc2af2ddca9842afb578bb1e3eafca629f59a72238944252c2e13ce"
+    },
+    {
+      "path": "outputs/tables/month_of_year_profile.csv",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/month_of_year_profile.csv",
+      "sha256": "bb50151ebab5fe02ad62354266f6e747699b67fb14fc87488ededa3aae3255c1"
+    },
+    {
+      "path": "outputs/tables/functional_graph_nodes.csv",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/functional_graph_nodes.csv",
+      "sha256": "3249e7a81d785e21f9558fb8cbc3dd022fda942dfca04058e055b654ceb51180"
+    },
+    {
+      "path": "outputs/isfahan_intersections_map.html",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/isfahan_intersections_map.html",
+      "sha256": "305adfcd271879540991fc52577ec18c4ffca4c7178bf80f019298cbcb75807f"
+    },
+    {
+      "path": "src/isfahan_traffic/analysis.py",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/src/isfahan_traffic/analysis.py",
+      "sha256": "e47638022eda666a27dd1d576410713210c8cd0a4646b910790613b5f0bd5795"
+    },
+    {
+      "path": "src/isfahan_traffic/visuals.py",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/src/isfahan_traffic/visuals.py",
+      "sha256": "8abc85e92047559d0e858ba87bbec638101a66b959fa0cf6dae88c8ff87c250a"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/README.md",
+      "sha256": "7335ade0402374cbafbcf7aca32a0ed162695294fdc138953229eca03a0c7ee4"
+    }
+  ],
+  "results": {
+    "data_window": {
+      "first_month": "2018-10",
+      "last_month": "2021-01",
+      "raw_intersection_records": 5454089,
+      "intersections_with_raw_data": 75,
+      "trusted_intersection_months": 1433,
+      "partial_source_months": [
+        "2020-12"
+      ],
+      "missing_source_months": [
+        "2020-11"
+      ]
+    },
+    "quality": {
+      "channel_readings_profiled": 57594780,
+      "invalid_channel_readings": 11652025,
+      "invalid_channel_rate": 0.20231043507762336,
+      "operational_detector_invalid_rate": 0.19147808830169913
+    },
+    "time_series": {
+      "largest_consecutive_month_decline": {
+        "year_month": "2020-03",
+        "previous_month": "2020-02",
+        "paired_intersections": 41,
+        "median_change": -0.2584248109144456,
+        "mean_change": -0.2576394776400213,
+        "p25_change": -0.3032115591104402,
+        "p75_change": -0.2316759696448225
+      },
+      "largest_consecutive_month_increase": {
+        "year_month": "2020-05",
+        "previous_month": "2020-04",
+        "paired_intersections": 43,
+        "median_change": 0.24351213416797513,
+        "mean_change": 0.2703399860015359,
+        "p25_change": 0.21573135475867056,
+        "p75_change": 0.2784376952025408
+      },
+      "highest_typical_month": {
+        "month": 1.0,
+        "mean_volume": 554.9010512187833,
+        "median_volume": 546.4834939675716,
+        "standard_deviation": 157.39238475842345,
+        "intersection_months": 34.0
+      },
+      "lowest_typical_month": {
+        "month": 11.0,
+        "mean_volume": 518.4202846960231,
+        "median_volume": 500.18632423056135,
+        "standard_deviation": 128.48497005444793,
+        "intersection_months": 34.0
+      },
+      "month_of_year_baseline": "2019 (only complete pre-pandemic calendar year)",
+      "month_of_year_common_panel_intersections": 34,
+      "seasonal_peak_to_trough": 0.09255984718940358
+    },
+    "intersection_1081": {
+      "volume_rank": 61,
+      "ranked_intersections": 74,
+      "functional_similarity_centrality_rank": 5,
+      "mean_approach_volumes": {
+        "south": 149.97816487114395,
+        "west": 60.43274437831685,
+        "north": 152.32127107873717,
+        "east": 75.97521949163331
+      },
+      "dominant_entry_approach": "north",
+      "dominant_approach_share": 0.34720469985528535,
+      "north_south_corridor_share": 0.6890684681271155,
+      "feb_to_mar_2020_change": -0.3419126920252732,
+      "apr_to_may_2020_change": 0.27389926525642116
+    },
+    "functional_graph": {
+      "nodes": 74,
+      "edges": 218,
+      "communities": 4,
+      "connected_components": 1,
+      "interpretation": "Edges represent similar 168-bin weekly traffic profiles, not physical roads.",
+      "highest_weighted_degree_node": {
+        "intersection_id": 1051,
+        "community": 2,
+        "degree_centrality": 0.1506849315068493,
+        "weighted_degree": 10.924335656406992,
+        "betweenness_centrality": 0.22907153729071536,
+        "eigenvector_centrality": 0.17065152935078973,
+        "dtw_cluster": 2,
+        "mean_volume": 366.8021608794638,
+        "trusted_months": 23,
+        "name_fa": "چهار راه نقاشي",
+        "gis_id": 1055.0
+      }
+    },
+    "dtw_clustering": {
+      "selected_clusters": 2,
+      "silhouette": 0.56920627850436,
+      "candidates": [
+        {
+          "clusters": 2,
+          "silhouette": 0.56920627850436
+        },
+        {
+          "clusters": 3,
+          "silhouette": 0.5322253326073867
+        },
+        {
+          "clusters": 4,
+          "silhouette": 0.4510783254215809
+        },
+        {
+          "clusters": 5,
+          "silhouette": 0.38126946202514983
+        },
+        {
+          "clusters": 6,
+          "silhouette": 0.33329596833760616
+        }
+      ],
+      "intersections_clustered": 74
+    },
+    "method_note": "Volume is coverage-normalized across operational detector channels; functional graph edges encode weekly-profile similarity, not physical adjacency or vehicle transfers."
+  },
+  "map": {
+    "located": 30,
+    "eligible": 74,
+    "coverage": 0.40540540540540543,
+    "note": "OpenStreetMap/Nominatim coordinates are cached candidates and should be verified in municipal GIS or QGIS."
+  },
+  "derived_data": {
+    "file": "intersection-map-data.csv",
+    "method": "Exact Plotly.newPlot trace data extracted from committed map HTML; 30 unique intersection IDs."
+  },
+  "interpretation": [
+    "Paired-month changes compare the same junctions within each consecutive-month pair; the panel can vary between pairs.",
+    "Whiskers in panel A show an interquartile range of junction-level changes, not a confidence interval.",
+    "2019 seasonal medians use the same 34 trusted intersections in all 12 months.",
+    "Approach values are equal-weight averages of available monthly approach means, not an all-observation time-weighted mean. The approach output is not filtered to the trusted intersection-month panel. North+south share uses the sum of four displayed approach means.",
+    "Functional communities describe similar weekly profiles; they do not establish physical road links.",
+    "Spatial positions are saved candidate geocodes and require GIS verification."
+  ]
+}
