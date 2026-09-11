@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="576pt" viewBox="0 0 1008 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-11T17:55:24.173560</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib; source-grounded portfolio figure</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 1008 576 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.36 35.712 
+L 90.72 35.712 
+L 90.72 32.256 
+L 45.36 32.256 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #803744"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.424 305.28 
+L 198.9792 305.28 
+Q 207.0432 305.28 207.0432 300.672 
+L 207.0432 180.288 
+Q 207.0432 175.68 198.9792 175.68 
+L 53.424 175.68 
+Q 45.36 175.68 45.36 180.288 
+L 45.36 300.672 
+Q 45.36 305.28 53.424 305.28 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f6f7f7; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 212.0832 240.48 
+Q 220.6512 240.48 227.542149 240.48 
+" clip-path="url(#pd12b1e9ffd)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 222.342149 237.88 
+L 227.542149 240.48 
+L 222.342149 243.08 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 242.3232 305.28 
+L 387.8784 305.28 
+Q 395.9424 305.28 395.9424 300.672 
+L 395.9424 180.288 
+Q 395.9424 175.68 387.8784 175.68 
+L 242.3232 175.68 
+Q 234.2592 175.68 234.2592 180.288 
+L 234.2592 300.672 
+Q 234.2592 305.28 242.3232 305.28 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 400.9824 240.48 
+Q 409.5504 240.48 416.441349 240.48 
+" clip-path="url(#pd12b1e9ffd)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 411.241349 237.88 
+L 416.441349 240.48 
+L 411.241349 243.08 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 431.2224 305.28 
+L 576.7776 305.28 
+Q 584.8416 305.28 584.8416 300.672 
+L 584.8416 180.288 
+Q 584.8416 175.68 576.7776 175.68 
+L 431.2224 175.68 
+Q 423.1584 175.68 423.1584 180.288 
+L 423.1584 300.672 
+Q 423.1584 305.28 431.2224 305.28 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f6f7f7; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 589.8816 240.48 
+Q 598.4496 240.48 605.340549 240.48 
+" clip-path="url(#pd12b1e9ffd)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 600.140549 237.88 
+L 605.340549 240.48 
+L 600.140549 243.08 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 620.1216 305.28 
+L 765.6768 305.28 
+Q 773.7408 305.28 773.7408 300.672 
+L 773.7408 180.288 
+Q 773.7408 175.68 765.6768 175.68 
+L 620.1216 175.68 
+Q 612.0576 175.68 612.0576 180.288 
+L 612.0576 300.672 
+Q 612.0576 305.28 620.1216 305.28 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 778.7808 240.48 
+Q 787.3488 240.48 794.239749 240.48 
+" clip-path="url(#pd12b1e9ffd)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 789.039749 237.88 
+L 794.239749 240.48 
+L 789.039749 243.08 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 809.0208 305.28 
+L 954.576 305.28 
+Q 962.64 305.28 962.64 300.672 
+L 962.64 180.288 
+Q 962.64 175.68 954.576 175.68 
+L 809.0208 175.68 
+Q 800.9568 175.68 800.9568 180.288 
+L 800.9568 300.672 
+Q 800.9568 305.28 809.0208 305.28 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f6f7f7; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 53.424 474.048 
+L 485.856 474.048 
+Q 493.92 474.048 493.92 469.44 
+L 493.92 355.968 
+Q 493.92 351.36 485.856 351.36 
+L 53.424 351.36 
+Q 45.36 351.36 45.36 355.968 
+L 45.36 469.44 
+Q 45.36 474.048 53.424 474.048 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #faf4f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 527.184 474.048 
+L 954.576 474.048 
+Q 962.64 474.048 962.64 469.44 
+L 962.64 355.968 
+Q 962.64 351.36 954.576 351.36 
+L 527.184 351.36 
+Q 519.12 351.36 519.12 355.968 
+L 519.12 469.44 
+Q 519.12 474.048 527.184 474.048 
+z
+" clip-path="url(#pd12b1e9ffd)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 45.36 517.248 
+L 962.64 517.248 
+" clip-path="url(#pd12b1e9ffd)" style="fill: none; stroke: #dce1e2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="104.832" y="40.810336" transform="rotate(-0 104.832 40.810336)">IMPLEMENTED WORKFLOW</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="45.36" y="82.623438" transform="rotate(-0 45.36 82.623438)">From EHL experiments to model comparison</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="106.023906" transform="rotate(-0 45.36 106.023906)">A reusable research application for predicting average film thickness in nanometres.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="60.48" y="199.210336" transform="rotate(-0 60.48 199.210336)">01</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="60.48" y="223.052109" transform="rotate(-0 60.48 223.052109)">Import</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(60.48 255.550117)">TXT / ZIP files</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(60.48 270.449031)">Duplicate filtering</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="249.3792" y="199.210336" transform="rotate(-0 249.3792 199.210336)">02</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="249.3792" y="224.511563" transform="rotate(-0 249.3792 224.511563)">Clean</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(249.3792 254.934031)">Merge tables</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(249.3792 270.449031)">KNN imputation</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="438.2784" y="199.210336" transform="rotate(-0 438.2784 199.210336)">03</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="438.2784" y="223.252187" transform="rotate(-0 438.2784 223.252187)">Explore</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(438.2784 255.970594)">Statistics</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(438.2784 270.449031)">Correlation plots</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="627.1776" y="199.210336" transform="rotate(-0 627.1776 199.210336)">04</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="627.1776" y="223.252187" transform="rotate(-0 627.1776 223.252187)">Compare models</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(627.1776 254.934031)">Classical + deep</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(627.1776 270.449031)">Optuna tuning</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="816.0768" y="199.210336" transform="rotate(-0 816.0768 199.210336)">05</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="816.0768" y="223.052109" transform="rotate(-0 816.0768 223.052109)">Export</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(816.0768 255.970594)">Cleaned data</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(816.0768 270.449031)">Predictions / plots</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="65.52" y="380.074336" transform="rotate(-0 65.52 380.074336)">CLASSICAL MODELS</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="65.52" y="409.875187" transform="rotate(-0 65.52 409.875187)">Random Forest · XGBoost</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(65.52 435.070969)">Tabular regressors are trained and compared</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(65.52 452.035969)">through reusable model adapters.</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="539.28" y="380.074336" transform="rotate(-0 539.28 380.074336)">DEEP TABULAR MODELS</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="539.28" y="409.875187" transform="rotate(-0 539.28 409.875187)">TabNet · NODE · FT-Transformer</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(539.28 436.204406)">Neural alternatives share the same data</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(539.28 452.035969)">preparation and model-comparison workflow.</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="541.281563" transform="rotate(-0 45.36 541.281563)">Source: EHL-film-prediction / README.md, model adapters and training pipelines</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="558.436906" transform="rotate(-0 45.36 558.436906)">This figure documents implemented functionality. It does not represent a reported predictive benchmark.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd12b1e9ffd">
+   <rect x="0" y="0" width="1008" height="576"/>
+  </clipPath>
+ </defs>
+</svg>

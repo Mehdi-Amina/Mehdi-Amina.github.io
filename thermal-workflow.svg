@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="576pt" viewBox="0 0 1008 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-11T18:19:06.277785</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib; source-grounded portfolio figure</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 1008 576 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.36 35.712 
+L 90.72 35.712 
+L 90.72 32.256 
+L 45.36 32.256 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #803744"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.424 318.528 
+L 954.576 318.528 
+Q 962.64 318.528 962.64 313.92 
+L 962.64 149.76 
+Q 962.64 145.152 954.576 145.152 
+L 53.424 145.152 
+Q 45.36 145.152 45.36 149.76 
+L 45.36 313.92 
+Q 45.36 318.528 53.424 318.528 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #f1f6f5"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 53.424 484.416 
+L 246.204 484.416 
+Q 254.268 484.416 254.268 479.808 
+L 254.268 363.456 
+Q 254.268 358.848 246.204 358.848 
+L 53.424 358.848 
+Q 45.36 358.848 45.36 363.456 
+L 45.36 479.808 
+Q 45.36 484.416 53.424 484.416 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #f6f7f7; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 259.308 421.632 
+Q 267.876 421.632 274.766949 421.632 
+" clip-path="url(#p9e4d906d81)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 269.566949 419.032 
+L 274.766949 421.632 
+L 269.566949 424.232 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 289.548 484.416 
+L 482.328 484.416 
+Q 490.392 484.416 490.392 479.808 
+L 490.392 363.456 
+Q 490.392 358.848 482.328 358.848 
+L 289.548 358.848 
+Q 281.484 358.848 281.484 363.456 
+L 281.484 479.808 
+Q 281.484 484.416 289.548 484.416 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 495.432 421.632 
+Q 504 421.632 510.890949 421.632 
+" clip-path="url(#p9e4d906d81)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 505.690949 419.032 
+L 510.890949 421.632 
+L 505.690949 424.232 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 525.672 484.416 
+L 718.452 484.416 
+Q 726.516 484.416 726.516 479.808 
+L 726.516 363.456 
+Q 726.516 358.848 718.452 358.848 
+L 525.672 358.848 
+Q 517.608 358.848 517.608 363.456 
+L 517.608 479.808 
+Q 517.608 484.416 525.672 484.416 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #f6f7f7; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 731.556 421.632 
+Q 740.124 421.632 747.014949 421.632 
+" clip-path="url(#p9e4d906d81)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 741.814949 419.032 
+L 747.014949 421.632 
+L 741.814949 424.232 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 761.796 484.416 
+L 954.576 484.416 
+Q 962.64 484.416 962.64 479.808 
+L 962.64 363.456 
+Q 962.64 358.848 954.576 358.848 
+L 761.796 358.848 
+Q 753.732 358.848 753.732 363.456 
+L 753.732 479.808 
+Q 753.732 484.416 761.796 484.416 
+z
+" clip-path="url(#p9e4d906d81)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 45.36 517.248 
+L 962.64 517.248 
+" clip-path="url(#p9e4d906d81)" style="fill: none; stroke: #dce1e2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="104.832" y="40.810336" transform="rotate(-0 104.832 40.810336)">METHOD OVERVIEW + REPORTED RESULT</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="45.36" y="82.525781" transform="rotate(-0 45.36 82.525781)">Thermal-image processing for drone detection</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="106.023906" transform="rotate(-0 45.36 106.023906)">Image enhancement, segmentation and parallel processing for infrared / thermal UAV imagery.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="71.568" y="175.018336" transform="rotate(-0 71.568 175.018336)">REPORTED PROCESSING OUTCOME</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 46px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="71.568" y="243.629281" transform="rotate(-0 71.568 243.629281)">+20%</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="292.32" y="226.414688" transform="rotate(-0 292.32 226.414688)">throughput improvement</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="294.336" y="250.749125" transform="rotate(-0 294.336 250.749125)">over sequential processing</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="71.568" y="305.77125" transform="rotate(-0 71.568 305.77125)">Computer vision and image-processing workflows at Fraunhofer IOSB</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="60.48" y="382.378336" transform="rotate(-0 60.48 382.378336)">01</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="60.48" y="406.369406" transform="rotate(-0 60.48 406.369406)">Image input</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(60.48 438.718117)">Infrared / thermal</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(60.48 453.617031)">UAV imagery</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="296.604" y="382.378336" transform="rotate(-0 296.604 382.378336)">02</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="296.604" y="406.369406" transform="rotate(-0 296.604 406.369406)">Process images</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(296.604 439.138594)">Enhancement</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(296.604 453.617031)">and segmentation</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="532.728" y="382.378336" transform="rotate(-0 532.728 382.378336)">03</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="532.728" y="407.679562" transform="rotate(-0 532.728 407.679562)">Parallelize</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(532.728 438.102031)">Parallel image</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(532.728 453.617031)">processing</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #547e82" x="768.852" y="382.378336" transform="rotate(-0 768.852 382.378336)">04</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="768.852" y="406.369406" transform="rotate(-0 768.852 406.369406)">Support analysis</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(768.852 439.138594)">Drone-detection</text>
+    <text style="font-size: 10.7px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(768.852 453.617031)">applications</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="541.281563" transform="rotate(-0 45.36 541.281563)">Source: mehdi-amina.github.io / Thermal-image processing for drone detection</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="558.436906" transform="rotate(-0 45.36 558.436906)">Reported in portfolio; not independently rerun. Method overview only; no example imagery or measured runtime is invented.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9e4d906d81">
+   <rect x="0" y="0" width="1008" height="576"/>
+  </clipPath>
+ </defs>
+</svg>

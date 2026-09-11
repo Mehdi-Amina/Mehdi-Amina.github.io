@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="576pt" viewBox="0 0 1008 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-11T17:55:23.930041</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib; source-grounded portfolio figure</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 1008 576 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.36 35.712 
+L 90.72 35.712 
+L 90.72 32.256 
+L 45.36 32.256 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #803744"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.424 423.36 
+L 571.536 423.36 
+Q 579.6 423.36 579.6 418.752 
+L 579.6 151.488 
+Q 579.6 146.88 571.536 146.88 
+L 53.424 146.88 
+Q 45.36 146.88 45.36 151.488 
+L 45.36 418.752 
+Q 45.36 423.36 53.424 423.36 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #ffffff; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 183.456 295.488 
+L 495.936 295.488 
+L 495.936 260.928 
+L 183.456 260.928 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #f6f7f7"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 183.456 295.488 
+L 480.93696 295.488 
+L 480.93696 260.928 
+L 183.456 260.928 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #803744"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 183.456 360.576 
+L 495.936 360.576 
+L 495.936 326.016 
+L 183.456 326.016 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #f6f7f7"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 183.456 360.576 
+L 490.93632 360.576 
+L 490.93632 326.016 
+L 183.456 326.016 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #547e82"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 638.064 228.672 
+L 954.576 228.672 
+Q 962.64 228.672 962.64 224.064 
+L 962.64 155.52 
+Q 962.64 150.912 954.576 150.912 
+L 638.064 150.912 
+Q 630 150.912 630 155.52 
+L 630 224.064 
+Q 630 228.672 638.064 228.672 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 638.064 327.168 
+L 954.576 327.168 
+Q 962.64 327.168 962.64 322.56 
+L 962.64 254.016 
+Q 962.64 249.408 954.576 249.408 
+L 638.064 249.408 
+Q 630 249.408 630 254.016 
+L 630 322.56 
+Q 630 327.168 638.064 327.168 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 638.064 425.664 
+L 954.576 425.664 
+Q 962.64 425.664 962.64 421.056 
+L 962.64 352.512 
+Q 962.64 347.904 954.576 347.904 
+L 638.064 347.904 
+Q 630 347.904 630 352.512 
+L 630 421.056 
+Q 630 425.664 638.064 425.664 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #f1f6f5; stroke: #dce1e2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 796.32 230.976 
+Q 796.32 238.752 796.32 244.850949 
+" clip-path="url(#pb54a3fac01)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 798.92 239.650949 
+L 796.32 244.850949 
+L 793.72 239.650949 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 796.32 328.896 
+Q 796.32 336.672 796.32 342.770949 
+" clip-path="url(#pb54a3fac01)" style="fill: none; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 798.92 337.570949 
+L 796.32 342.770949 
+L 793.72 337.570949 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #547e82; stroke: #547e82; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 53.424 497.088 
+L 954.576 497.088 
+Q 962.64 497.088 962.64 492.48 
+L 962.64 453.312 
+Q 962.64 448.704 954.576 448.704 
+L 53.424 448.704 
+Q 45.36 448.704 45.36 453.312 
+L 45.36 492.48 
+Q 45.36 497.088 53.424 497.088 
+z
+" clip-path="url(#pb54a3fac01)" style="fill: #faf4f5"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 45.36 517.248 
+L 962.64 517.248 
+" clip-path="url(#pb54a3fac01)" style="fill: none; stroke: #dce1e2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="104.832" y="40.810336" transform="rotate(-0 104.832 40.810336)">SYNTHETIC HOLDOUT RESULTS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="45.36" y="82.525781" transform="rotate(-0 45.36 82.525781)">Sensor anomaly prediction</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="106.023906" transform="rotate(-0 45.36 106.023906)">Committed model evaluation and the data path behind it.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #803744" x="70.56" y="172.932133" transform="rotate(-0 70.56 172.932133)">MODEL EVALUATION</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="70.56" y="207.014812" transform="rotate(-0 70.56 207.014812)">25% stratified holdout</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="70.56" y="227.510781" transform="rotate(-0 70.56 227.510781)">Random Forest · generated sensor data</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="70.56" y="280.193062" transform="rotate(-0 70.56 280.193062)">F1 score</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #803744" x="552.384" y="284.395734" transform="rotate(-0 552.384 284.395734)">0.952</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="70.56" y="344.118562" transform="rotate(-0 70.56 344.118562)">Accuracy</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #547e82" x="552.384" y="349.483734" transform="rotate(-0 552.384 349.483734)">0.984</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697178" x="183.456" y="392.233352" transform="rotate(-0 183.456 392.233352)">0.0</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697178" x="339.696" y="392.233352" transform="rotate(-0 339.696 392.233352)">0.5</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697178" x="495.936" y="392.233352" transform="rotate(-0 495.936 392.233352)">1.0</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="70.56" y="415.713563" transform="rotate(-0 70.56 415.713563)">Scores range from 0 to 1; higher is better.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="650.16" y="180.688172" transform="rotate(-0 650.16 180.688172)">2,500 sensor events</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 198.861844)">Required fields, missing values</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 214.086844)">and duplicate IDs checked</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="650.16" y="278.763469" transform="rotate(-0 650.16 278.763469)">504 hourly feature rows</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 297.357844)">Event observations aggregated</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 313.600031)">for classification</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="650.16" y="378.771187" transform="rotate(-0 650.16 378.771187)">Model → FastAPI</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 396.871031)">Trained artifact connected</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #697178" transform="translate(650.16 411.078844)">to a prediction endpoint</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 11.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #343a40" x="61.488" y="476.0425" transform="rotate(-0 61.488 476.0425)">Data-quality report: no missing values or duplicate event IDs in the 2,500-event sample.</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="61.488" y="492.997656" transform="rotate(-0 61.488 492.997656)">Results are committed repository outputs; this figure does not rerun the model.</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="541.139719" transform="rotate(-0 45.36 541.139719)">Source: distributed-sensor-pipeline / results/model_metrics.json and data_quality_report.json</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #697178" x="45.36" y="558.304797" transform="rotate(-0 45.36 558.304797)">Evaluation split verified in src/sensor_pipeline/training.py. The local processing path uses files.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb54a3fac01">
+   <rect x="0" y="0" width="1008" height="576"/>
+  </clipPath>
+ </defs>
+</svg>
