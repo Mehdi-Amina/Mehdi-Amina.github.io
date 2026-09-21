@@ -44,20 +44,6 @@
       800
     ]
   },
-  "thermal-workflow": {
-    "files": [
-      "thermal-workflow.png",
-      "thermal-workflow.svg"
-    ],
-    "sources": [
-      "https://mehdi-amina.github.io/"
-    ],
-    "evidence": "Portfolio-reported throughput improvement of 20% over sequential processing; no dataset, runtime, image samples or detector accuracy claimed. The owner confirms this project belongs to Fraunhofer IOSB; the current IESE role began in September 2026.",
-    "size_px": [
-      1400,
-      800
-    ]
-  },
   "research-matching-workflow": {
     "files": [
       "research-matching-workflow.png",
@@ -88,6 +74,19 @@
     "size_px": [
       1400,
       800
+    ]
+  },
+  "thermal-farmland": {
+    "files": [
+      "thermal-farmland.png"
+    ],
+    "sources": [
+      "thermal-sources.md"
+    ],
+    "evidence": "Sixteen georeferenced RGB aerial image sections around Karlsruhe with deterministic simulated heat values and thresholded connected regions. The heat is not measured thermal imagery, nor inferred from RGB or DWD station data. Location labels do not imply ownership. Portfolio-reported 20% processing-throughput improvement belongs to the owner-confirmed Fraunhofer IOSB project and is not a benchmark of this illustration. Public weather charts are rendered PNG figures with display summaries; hourly measurement files remain local.",
+    "size_px": [
+      3200,
+      2880
     ]
   }
 }
