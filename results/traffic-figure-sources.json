@@ -1,7 +1,23 @@
 {
-  "repository": "https://github.com/MehdiAminazadeh/traffic",
-  "commit": "d4e5af43c63cc00bbc3967e1f48f2bf5084e070b",
+  "repository": "https://github.com/MehdiAminazadeh/Isfahan_traffic",
+  "commit": "5f6780145597c5659163974eabfb516806fb9e4c",
   "created_from": "Committed analysis outputs; source archive was not ingested or re-evaluated.",
+  "original_figure_snapshot": {
+    "repository": "MehdiAminazadeh/traffic",
+    "commit": "d4e5af43c63cc00bbc3967e1f48f2bf5084e070b",
+    "source_sha256": {
+      "outputs/tables/analysis_summary.json": "22f78e7b9101ff99c82c1a5a756e7cae50b91b1f1d7e17227c92b8dbf16a8267",
+      "outputs/tables/map_summary.json": "305f7741936da97247d22d9f7f12057dadb8346bb6845ff84a1cb1bd4149ce5f",
+      "outputs/tables/paired_month_changes.csv": "d6ccdbccdbc2af2ddca9842afb578bb1e3eafca629f59a72238944252c2e13ce",
+      "outputs/tables/month_of_year_profile.csv": "bb50151ebab5fe02ad62354266f6e747699b67fb14fc87488ededa3aae3255c1",
+      "outputs/tables/functional_graph_nodes.csv": "3249e7a81d785e21f9558fb8cbc3dd022fda942dfca04058e055b654ceb51180",
+      "outputs/isfahan_intersections_map.html": "305adfcd271879540991fc52577ec18c4ffca4c7178bf80f019298cbcb75807f",
+      "src/isfahan_traffic/analysis.py": "e47638022eda666a27dd1d576410713210c8cd0a4646b910790613b5f0bd5795",
+      "src/isfahan_traffic/visuals.py": "8abc85e92047559d0e858ba87bbec638101a66b959fa0cf6dae88c8ff87c250a",
+      "README.md": "7335ade0402374cbafbcf7aca32a0ed162695294fdc138953229eca03a0c7ee4"
+    },
+    "note": "The existing figures were generated from this earlier snapshot. Current source links below were updated on 21 September 2026. The five supporting analysis tables match the original files after line-ending normalization; current checksums use committed Git blob bytes. The raw archive was not rerun."
+  },
   "files": {
     "traffic-results": {
       "png": "traffic-results.png",
@@ -23,48 +39,48 @@
   "sources": [
     {
       "path": "outputs/tables/analysis_summary.json",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/analysis_summary.json",
-      "sha256": "22f78e7b9101ff99c82c1a5a756e7cae50b91b1f1d7e17227c92b8dbf16a8267"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/tables/analysis_summary.json",
+      "sha256": "320e1e37f048772413ef0c3e217aad5ccf03cca6ed82509c88af7a6d5510a266"
     },
     {
       "path": "outputs/tables/map_summary.json",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/map_summary.json",
-      "sha256": "305f7741936da97247d22d9f7f12057dadb8346bb6845ff84a1cb1bd4149ce5f"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/tables/map_summary.json",
+      "sha256": "998ee26dc81337e556b688a315e033752157419e39e3a68a2e04364b2db6d140"
     },
     {
       "path": "outputs/tables/paired_month_changes.csv",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/paired_month_changes.csv",
-      "sha256": "d6ccdbccdbc2af2ddca9842afb578bb1e3eafca629f59a72238944252c2e13ce"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/tables/paired_month_changes.csv",
+      "sha256": "efd6eb1e8e6090502f65ab78ee8387cf768acf948d9ed2afdffa5d8237bcdcc5"
     },
     {
       "path": "outputs/tables/month_of_year_profile.csv",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/month_of_year_profile.csv",
-      "sha256": "bb50151ebab5fe02ad62354266f6e747699b67fb14fc87488ededa3aae3255c1"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/tables/month_of_year_profile.csv",
+      "sha256": "9f5c3fde624afa0686bff2eda20ff7e8c016353487113e6a80750873a2e28859"
     },
     {
       "path": "outputs/tables/functional_graph_nodes.csv",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/tables/functional_graph_nodes.csv",
-      "sha256": "3249e7a81d785e21f9558fb8cbc3dd022fda942dfca04058e055b654ceb51180"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/tables/functional_graph_nodes.csv",
+      "sha256": "cc17c2d5702d46a7961ccbfa752c8769aec66198f20ee080a3ada0cb8e2725b1"
     },
     {
       "path": "outputs/isfahan_intersections_map.html",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/outputs/isfahan_intersections_map.html",
-      "sha256": "305adfcd271879540991fc52577ec18c4ffca4c7178bf80f019298cbcb75807f"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/outputs/isfahan_intersections_map.html",
+      "sha256": "977ec42f01e25c83126abc3ebbff79ef4252be5a33658b0757607aa3cabbdae7"
     },
     {
       "path": "src/isfahan_traffic/analysis.py",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/src/isfahan_traffic/analysis.py",
-      "sha256": "e47638022eda666a27dd1d576410713210c8cd0a4646b910790613b5f0bd5795"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/src/isfahan_traffic/analysis.py",
+      "sha256": "877115627ce2fd2c606183b1575b7cb4095690d90f9f72b58e6b173f1b8cf7ec"
     },
     {
       "path": "src/isfahan_traffic/visuals.py",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/src/isfahan_traffic/visuals.py",
-      "sha256": "8abc85e92047559d0e858ba87bbec638101a66b959fa0cf6dae88c8ff87c250a"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/src/isfahan_traffic/visuals.py",
+      "sha256": "375dcc68cee9cdb06b2dbff248e58f8d2153977279ab7737063591853b3cdd77"
     },
     {
       "path": "README.md",
-      "url": "https://github.com/MehdiAminazadeh/traffic/blob/d4e5af43c63cc00bbc3967e1f48f2bf5084e070b/README.md",
-      "sha256": "7335ade0402374cbafbcf7aca32a0ed162695294fdc138953229eca03a0c7ee4"
+      "url": "https://github.com/MehdiAminazadeh/Isfahan_traffic/blob/5f6780145597c5659163974eabfb516806fb9e4c/README.md",
+      "sha256": "26082233cf4f676a8ffb72c86d8a5f54f48923421a221749cbece5b99d2ad1c1"
     }
   ],
   "results": {
