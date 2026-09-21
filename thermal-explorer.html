@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b2737">
+  <link rel="stylesheet" href="assets/weather-preview.css">
+  <title>Farmland and weather explorer | Mehdi Aminazadeh</title>
+  <link rel="stylesheet" href="assets/farmland-explorer.css">
+<style>.portfolio-back{display:inline-block;margin-bottom:22px;font-size:13px}.embedded .portfolio-back{display:none}.embedded .masthead{padding-top:25px}.embedded h1{font-size:32px}</style>
+<script>if(window.self!==window.top)document.documentElement.classList.add("embedded")</script>
+</head>
+<body>
+  <header class="page masthead">
+    <a class="portfolio-back" href="./#project/thermal-imaging">← Back to the thermal imaging project</a>
+    <p class="eyebrow">Farmland explorer · Karlsruhe region</p>
+    <h1>Farmland from above<br>and the warmer areas within it</h1>
+    <p class="intro">A closer look at six field areas around Karlsruhe. These sixteen sections show the actual field patterns from above. Add the simulated heat layer, then raise the threshold to isolate the warmer parts.</p>
+    <div class="facts"><span><strong>6</strong> field areas</span><span><strong>16</strong> closeups</span><span><strong>250 × 167 m</strong> per section</span><span>Open any panel to explore</span></div>
+    <div class="note"><b>About these images</b><span>Real aerial photographs with simulated heat for illustration. The heat layer is not measured thermal drone imagery.</span></div>
+  </header>
+  <div class="nav-shell"><nav id="area-nav" class="page area-nav" aria-label="Field areas"><a href="#weather-analysis">Weather observations</a><span class="nav-label">Field areas</span></nav></div>
+  <main class="page">
+    <div class="global-controls"><div class="global-mode"><span>Show all sections</span><div class="mode-toggle" aria-label="Gallery display"><button type="button" id="gallery-aerial" aria-pressed="true">Aerial</button><button type="button" id="gallery-heat" aria-pressed="false">Heat map</button><button type="button" id="gallery-threshold" aria-pressed="false">Threshold</button></div></div><div class="global-range"><div class="range-top"><label for="gallery-slider">Heat threshold</label><output id="gallery-output" for="gallery-slider">0.60</output></div><input type="range" id="gallery-slider" min="0.30" max="0.95" step="0.01" value="0.60" aria-describedby="gallery-slider-help"><div class="range-bottom" id="gallery-slider-help"><span>Move to highlight warmer patches</span><span>0.30 → 0.95</span></div></div></div>
+    <div class="gallery-intro"><p id="gallery-description">Real aerial views · click a section for a closer look.</p><div class="legend" aria-label="Simulated heat scale from cooler to warmer"><span>Cooler</span><span class="legend-bar" aria-hidden="true"></span><span>Warmer</span></div></div>
+    <div id="gallery" class="gallery-grid" aria-busy="true"><p class="loading">Loading the field images…</p></div>
+    <section id="weather-analysis" aria-label="Weather observations near Karlsruhe"></section>
+    <footer class="source-footer"><p>Area names identify the surrounding locality, not a named farm business.</p></footer>
+  </main>
+  <dialog id="detail-dialog" aria-labelledby="detail-title" aria-describedby="detail-description">
+    <div class="dialog-inner">
+      <div class="dialog-top"><div><p class="eyebrow" id="detail-eyebrow">Field area</p><h2 id="detail-title"></h2></div><button class="icon-button" id="close-dialog" type="button" aria-label="Close field view">×</button></div>
+      <p class="dialog-description" id="detail-description">Simulated heat over real aerial imagery. Move the threshold to isolate the warmer patches.</p>
+      <div class="controls">
+        <div class="range-top"><label for="detail-threshold">Heat threshold</label><output for="detail-threshold" id="threshold-output">0.60</output></div>
+        <input type="range" id="detail-threshold" min="0.30" max="0.95" step="0.01" value="0.60" aria-describedby="threshold-help">
+        <div class="range-bottom" id="threshold-help"><span>0.30 · include more</span><span>0.95 · keep only the warmest</span></div>
+        <div class="control-bottom"><p class="region-count" id="region-count" aria-live="polite" aria-atomic="true"></p><div class="mode-toggle" aria-label="Heat display"><button type="button" id="mode-threshold" aria-pressed="true">Above threshold</button><button type="button" id="mode-heat" aria-pressed="false">Full heat map</button></div></div>
+      </div>
+      <div class="detail-views">
+        <figure class="detail-panel"><figcaption><span class="detail-place" id="aerial-place"></span><span class="detail-kind">Aerial view</span></figcaption><canvas id="detail-aerial" role="img"></canvas><p class="detail-caption">Real aerial photograph</p></figure>
+        <figure class="detail-panel"><figcaption><span class="detail-place" id="heat-place"></span><span class="detail-kind" id="heat-kind">Thresholded simulated heat</span></figcaption><canvas id="detail-heat" role="img"></canvas><p class="detail-caption" id="heat-caption">Only the areas above the threshold stay highlighted.</p></figure>
+      </div>
+      <section class="patch-inspector" aria-label="Locate a simulated warm patch">
+        <div class="patch-toolbar"><label for="patch-select">Locate a warm patch</label><select id="patch-select" aria-describedby="patch-help"><option value="">Choose a patch</option></select></div>
+        <p class="patch-help" id="patch-help">Click a highlighted patch or choose it here. Coordinates use WGS84 latitude and longitude. Patch IDs may change with the threshold.</p>
+        <p class="coord-empty" id="patch-empty">Choose a patch to see its centre and warmest cell.</p>
+        <dl class="patch-readout" id="patch-readout" hidden><div><dt>Patch centre · latitude longitude</dt><dd id="patch-centroid"></dd></div><div><dt>Warmest cell · latitude longitude</dt><dd id="patch-peak"></dd></div><div><dt>Approximate footprint</dt><dd id="patch-area"></dd></div><div><dt>Peak simulated intensity</dt><dd id="patch-intensity"></dd></div></dl>
+        <div class="patch-actions" id="patch-actions" hidden><button id="copy-coordinates" type="button">Copy centre coordinates</button><a id="patch-map" target="_blank" rel="noopener noreferrer">Open centre on map ↗</a><span id="patch-status" class="patch-status" role="status"></span></div>
+        <p class="patch-help">These positions locate simulated patches within the real aerial image. Six decimals show coordinate precision and do not establish survey accuracy. Areas are approximate ground footprints.</p>
+      </section>
+      <div class="dialog-bottom"><p class="dialog-note">White outlines mark connected patches of at least 12 cells. The yellow pin marks the selected patch centre and the small cross marks its warmest cell.</p><div class="paging"><button type="button" id="previous-area">← Previous section</button><button type="button" id="next-area">Next section →</button></div></div>
+    </div>
+  </dialog>
+  <script src="assets/farmland-explorer.js" defer></script>
+<script type="module" src="assets/weather-preview.js"></script>
+</body>
+</html>
