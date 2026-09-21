@@ -1,0 +1,222 @@
+:root {
+  color-scheme: dark;
+  --paper: #1b2737;
+  --soft: #253448;
+  --raised: #2b3b50;
+  --ink: #e7edf5;
+  --muted: #b0bccb;
+  --accent: #9fc4e4;
+  --accent-hover: #c2ddf4;
+  --line: #3b4b60;
+  --control-line: #70849b;
+  --global-base-color: var(--accent);
+  --global-bg-color: var(--paper);
+  --global-footer-bg-color: #172232;
+  --global-border-color: var(--line);
+  --global-dark-border-color: var(--control-line);
+  --global-code-background-color: var(--soft);
+  --global-code-text-color: var(--ink);
+  --global-fig-caption-color: var(--muted);
+  --global-link-color: var(--accent);
+  --global-link-color-hover: var(--accent-hover);
+  --global-link-color-visited: var(--accent);
+  --global-masthead-link-color: var(--ink);
+  --global-masthead-link-color-hover: var(--accent-hover);
+  --global-text-color: var(--ink);
+  --global-text-color-light: var(--muted);
+  --global-thead-color: var(--soft);
+}
+
+html {
+  scrollbar-color: #60748b var(--paper);
+}
+
+body {
+  background: radial-gradient(ellipse at 90% 0, #23354a 0, transparent 42rem), var(--paper);
+}
+
+::selection {
+  color: #f4f8fc;
+  background: #41617f;
+}
+
+.masthead {
+  background: #172232;
+  border-bottom: 1px solid var(--line);
+}
+
+h1, h2, h3, .site-title {
+  color: #edf2f8;
+}
+
+.top-nav a, .affiliation, .sidebar-note,
+.project-row p:not(.project-context), .research-interest-summary ul,
+.research-direction dd, .research-keywords, .academic-callout p {
+  color: var(--muted);
+}
+
+.page-intro {
+  color: #bfccdc;
+}
+
+a:hover, .top-nav a:hover, .profile-links a:hover,
+.project-row h3 a:hover {
+  color: var(--accent-hover);
+}
+
+.profile-portrait {
+  background: var(--soft);
+  box-shadow: 0 0 0 1px #52647a, 0 10px 28px #10192740;
+}
+
+.academic-callout, .result-highlight, .volume-equation {
+  background: var(--soft);
+  border-left-color: var(--accent);
+  border-radius: 0 7px 7px 0;
+}
+
+.education-entry, .demo-frame {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+
+.interest-grid > div {
+  border-top-color: #6887a4;
+}
+
+.project-marker {
+  color: var(--muted);
+}
+
+.tags span {
+  color: #c7d3e1;
+  background: #26364b;
+  border-color: #46576e;
+  border-radius: 4px;
+}
+
+.filters button, .model-options button, .demo-primary {
+  color: var(--ink);
+  background: #26364b;
+  border-color: var(--control-line);
+  border-radius: 5px;
+}
+
+.filters button:hover, .model-options button:hover, .demo-primary:hover {
+  color: var(--accent-hover);
+  background: #344962;
+  border-color: var(--accent);
+}
+
+.filters button.selected, .model-options .selected,
+.filters button.selected:hover, .model-options .selected:hover {
+  color: #182638;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.primary-link {
+  background: #26364b;
+  border-color: #70849b;
+  border-radius: 5px;
+}
+
+.primary-link:hover {
+  background: #344962;
+  border-color: var(--accent);
+}
+
+.model-pipeline > span {
+  background: #1e2b3d;
+  border-color: #52647a;
+}
+
+.model-pipeline > svg {
+  color: var(--muted);
+}
+
+.match-row.accepted {
+  background: #29463f;
+}
+
+.demo-gain, .accepted .match-state {
+  color: #abe0c4;
+}
+
+.demo-caption {
+  color: var(--muted) !important;
+}
+
+.study-table thead th {
+  background: #2b3d53;
+}
+
+.study-table tbody tr:nth-child(even) {
+  background: #223145;
+}
+
+.volume-equation > div > span:first-child {
+  border-bottom-color: #70849b;
+}
+
+.site-footer {
+  background: #172232;
+}
+
+.skip-link {
+  color: #182638;
+}
+
+.research-figure img, .project-marker img, .experience-visual img {
+  background: #f5f7fa;
+  border-color: #64768c;
+  border-radius: 6px;
+}
+
+.layout-diagram text, .anomaly-chart text, .energy-chart text {
+  fill: #c7d3e1;
+}
+
+.layout-diagram [fill="#fff"], .layout-diagram [fill="#ffffff"] {
+  fill: #2b3b50;
+}
+
+.layout-diagram [fill="#edf4ee"] {
+  fill: #29463f;
+}
+
+.layout-diagram > line {
+  stroke: #91a8c0;
+  opacity: .75;
+}
+
+.layout-diagram > line[stroke="#537966"] {
+  stroke: #a6ccb5;
+}
+
+.anomaly-chart [stroke="#e4e7e9"], .energy-chart [stroke="#e5e8e9"] {
+  stroke: #52647a;
+}
+
+.energy-chart [stroke="#547e82"] {
+  stroke: #91c8cf;
+}
+
+.energy-chart [fill="#803744"] {
+  fill: #e9a8b7;
+}
+
+.anomaly-chart [fill="#803744"] {
+  fill: #e9a8b7;
+}
+
+.energy-chart [stroke="#803744"] {
+  stroke: #e9a8b7;
+}
+
+button:focus-visible, a:focus-visible, summary:focus-visible,
+input:focus-visible, select:focus-visible {
+  outline: 2px solid #c2ddf4;
+  outline-offset: 4px;
+}
